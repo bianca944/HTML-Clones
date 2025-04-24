@@ -1,9 +1,9 @@
 print("HTML Clone")
 import os
 import argparse
-from clone_grouper.parser import parse_html_file
-from clone_grouper.similarity import compute_combined_similarity
-from clone_grouper.clustering import group_documents
+from parser import parse_html_file
+from similarity import compute_combined_similarity
+from clustering import group_documents
 
 def get_all_html_files(directory):
     return [os.path.join(directory, f) for f in os.listdir(directory) if f.endswith('.html')]
