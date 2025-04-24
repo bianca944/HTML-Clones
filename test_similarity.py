@@ -1,6 +1,6 @@
 import unittest
-from clone_grouper.similarity import compute_text_similarity, compute_tag_similarity, compute_dom_structure_similarity, compute_combined_similarity
-from clone_grouper.parser import parse_html_file
+from similarity import compute_text_similarity, compute_tag_similarity, compute_dom_structure_similarity, compute_combined_similarity
+from parser import parse_html_file
 
 class TestSimilarityFunctions(unittest.TestCase):
 
