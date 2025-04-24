@@ -8,7 +8,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -27,4 +26,4 @@ jobs:
 
     - name: Run the application
       run: |
-        PYTHONPATH=. python main.py ./HTML-Clones
+        PYTHONPATH=. python main.py .
