@@ -28,6 +28,7 @@ jobs:
       run: |
         echo "Verificăm fișierele HTML în directorul curent:"
         ls .  
+        
 
     - name: Run the application
       run: |
