@@ -25,5 +25,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Rulează scriptul de detectare
-      run: PYTHONPATH=. python main.py ./html_files
+    - name: Run the application
+      run: |
+        PYTHONPATH=. python main.py ./html_files
